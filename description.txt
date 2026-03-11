@@ -1,0 +1,11 @@
+Logic of coffeshop
+
+Work Flow:
+Order* is given to Cashier* which processes order payment and adds it to CashRegister* and Barista* prepares the order
+
+Order -> Cashier -> CashRegister -> Product -> Barista
+
+Order is object with Product(product_name, product_price) and payment
+Product is object with price and name
+
+Cashier serves as bridge between Order and CashRegister. Cashier gets Price and Payment and writes it to CashRegister. 
